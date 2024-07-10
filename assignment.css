@@ -2,7 +2,6 @@
 .header-container{
 width: 1490px;
 height: 652px;
-border: 2px,solid,red;
 background-image: url("./assets/Hero-bg.png");
 background-position: center;
 background-repeat: no-repeat;
@@ -14,7 +13,6 @@ background-size: cover;
 .header-content{
 width: 998px;
 height: 587.41px;
-border: 2px solid red;
 margin: 26px auto;
 display: flex;
 flex-direction: column;
@@ -68,7 +66,6 @@ margin-bottom: 38.59;
  .development-container{
 width: 1140px;
 height: 1395px;
-border: 2px solid red;
 padding: 80px 97px 80px 97px;
 display: flex;
 flex-direction: row;
@@ -82,7 +79,6 @@ background: rgba(13, 19, 33, 0.02);
 
 width: 946px;
 height: 1235px;
-border: 2px solid red;
 margin: 0px auto;
 display: flex;
 flex-direction: column;
@@ -100,7 +96,6 @@ font-family: Azeret Mono;
 font-size: 32px;
 font-weight: 800;
 text-align: center;
-border: 2px solid red;
 
 
 }
@@ -115,14 +110,12 @@ font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 400;
 text-align: center;
-border: 2px solid red;
 
 }
 
 .development-body1{
     width: 850px;
 height: 240px;
-border: 2px solid red;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -175,7 +168,6 @@ height: 217.01px;
 .developement-body2{
 width: 850px;
 height: 240px;
-border: 2px solid red;
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
@@ -231,7 +223,6 @@ justify-content: space-between;
 align-items: center;
 padding: 0px;
 margin: 32px 48px;
-border: 2px solid red;
 }
 
 .footer1-content h2 {
@@ -276,7 +267,6 @@ height: 217.01px;
 .body2-container{
     width: 1140px;
     height: 770px;
-    border: 2px solid red;
     padding: 80px 97px 80px 97px;
     display: flex;
     flex-direction: column;
@@ -320,7 +310,6 @@ text-align: left;
 .bodyy-container{
     height: 700px;
     width: 1140px;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -551,6 +540,28 @@ align-items: center;
 padding: 19px 20px 19px 20px;
 margin: 0px 220px;
 }
+.footer-Container{
+    width: 1140px;
+height: 36px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+margin: 60px 0px;
+align-self: stretch;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);;
+}
+.footer-content li {
+    width: 390px;
+height: 24px;
+margin: 0px 16px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+} 
 
 
 
