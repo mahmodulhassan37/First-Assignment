@@ -273,4 +273,58 @@ text-align: center;
  width: 259.56px;
 height: 217.01px;
 }
- 
+.body2-container{
+    width: 1140px;
+    height: 770px;
+    border: 2px solid red;
+    padding: 80px 97px 80px 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 70px auto;
+    background: rgba(13, 19, 33, 0.02);
+    }
+
+.body2-content h2 {
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+    text-align: left;
+}
+.body2-content p {
+    width: 852px;
+height: 52px;
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.youtube iframe{
+    width: 1076px;
+    height: 550px;
+    margin: 48px 0px;
+    align-self: stretch;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+.body3-container{
+    width: 1140px;
+    height: 463px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 111px 0px;
+    border: 2px solid red;
+}
+
+
