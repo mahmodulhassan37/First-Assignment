@@ -317,14 +317,164 @@ text-align: left;
     border-radius: 16px;
 
 }
-.body3-container{
+.bodyy-container{
+    height: 700px;
     width: 1140px;
-    height: 463px;
+    border: 2px solid red;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    margin: 111px 0px;
-    border: 2px solid red;
+    margin: 0px auto;
+    margin-top: 50px;
 }
+.body3-content h2{
+    width: 852px;
+height: 39px;
+margin: 24px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+}
+.body3-content p{
+    width: 852px;
+height: 52px;
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+.card {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+.card1 {
+width: 280px;
+height: 233px;
+padding: 40px;
+margin: 0px 15px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+
+}
+.card2 {
+width: 280px;
+height: 233px;
+margin: 0px 15px;
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+padding: 40px;
+
+
+}
+.card3 {
+width: 280px;
+height: 233px;
+padding: 40px;
+border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+margin: 0px 15px;
+
+}
+
+.next-target{
+width: 1140px;
+height: 871px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+margin: 111px 0px;
+align-self: stretch;
+flex-grow: 0;
+}
+.target-content h2{
+    width: 852px;
+height: 39px;
+margin: 24px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+}
+.target-content p {
+    width: 852px;
+height: 52px;
+align-items: center;
+margin: 24px 0px;
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.skils {
+    width: 1140px;
+height: 220px;
+display: flex;
+flex-direction:row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+flex-grow: 1;
+margin: 10px 24px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+
+}
+.skil {
+    margin-left: 24px;
+    
+}
+.skil h2 {
+    margin: 8px 0px;
+    width: 97px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+.skil p {
+    width: 941.22px;
+height: 52px;
+margin: 8px 0px;
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+}
+.skil a {
+    width: 941.22px;
+height: 20px;
+margin: 24px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+text-align: left;
+text-decoration-line: underline;
+}
+
+
 
 
